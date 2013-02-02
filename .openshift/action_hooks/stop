@@ -2,6 +2,6 @@
 # The logic to stop your application should be put in this script.
 
 # Stop apache
-$OPENSHIFT_RUNTIME_DIR/srv/httpd/bin/apachectl stop > /dev/null 2>&1
+$OPENSHIFT_HOMEDIR/app-root/runtime/srv/httpd/bin/apachectl stop > /dev/null 2>&1
 
 exit 0
